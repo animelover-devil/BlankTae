@@ -52,15 +52,15 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hello {},
-My Name is Yumeko Jabami
-I AM A Pshycho Gambler who loves to gamble on life.
+My Name is Blank Tae
+I am a BTS member who loves his fans more than anything.
 I will help you manage your group.
 TO KNOW MY COMMANDS CLICK /help.
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Gambler who loves to play games of life ,I will help you manage your groups! Have a look at the following for an idea of some of \
+I'm a a singer , dancer and I love you ,I will help you manage your groups! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -78,8 +78,8 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/cc612ca774619743b9e5f.mp4"
-YUMEKOIMGSTART = "https://telegra.ph/file/cc612ca774619743b9e5f.mp4"
+SAITAMA_IMG = "https://telegra.ph/file/6b0ec2ab4c62a803a0bc3.jpg"
+BLANKTAEIMGSTART = "https://telegra.ph/file/6b0ec2ab4c62a803a0bc3.jpg"
 
 DONATE_STRING = """donate to the original writer of the Base code, Paul
 There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
@@ -180,17 +180,17 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(                   
                           [[
                               InlineKeyboardButton(
-                              text="🔥Add Yumeko To Your Group🔥",
+                              text="🔥Add BLANK Tae To Your Group🔥",
                               url="t.me/{}?startgroup=true".format(
                                   context.bot.username))
                           ], 
                           [
                               InlineKeyboardButton(
-                              text="🍁 Chat Group🍁",
-                              url=f"https://t.me/devils_territory/8"),
+                              text="🍁 Support Group 🍁",
+                              url=f"https://t.me/joinchat/qrVgoJFXuV05ZjFl"),
                               InlineKeyboardButton(
-                              text="✨ GitHub link✨",
-                              url="https://github.com/DEVILTG/Yumekojabami")
+                              text="✨ GitHub link ✨",
+                              url="https://github.com/animelover-devil/BlankTae")
                           ]])) 
     else:
         update.effective_message.reply_video(
