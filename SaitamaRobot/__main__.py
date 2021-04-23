@@ -78,8 +78,8 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/6b0ec2ab4c62a803a0bc3.jpg"
-BLANKTAEIMGSTART = "https://telegra.ph/file/6b0ec2ab4c62a803a0bc3.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/e5610c51a0d4202287ce2.mp4"
+BLANKTAEIMGSTART = "https://telegra.ph/file/e5610c51a0d4202287ce2.mp4"
 
 DONATE_STRING = """donate to the original writer of the Base code, Paul
 There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
