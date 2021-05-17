@@ -75,7 +75,7 @@ def song(client, message):
         print(e)
 
 __help__= """
-/rsong- To download the required song from YouTube
+/song- To download the required song from YouTube
 """
 
 
